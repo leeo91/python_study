@@ -9,3 +9,6 @@ print("world")
 print(chr(56))
 print(ord('北'))
 print('\u5317')
+
+
+print(a,b,'beijing,welcome',sep=' \@ ', end='====>')
