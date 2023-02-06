@@ -12,3 +12,4 @@ print('\u5317')
 
 
 print(a,b,'beijing,welcome',sep=' \@ ', end='====>')
+print('hi')
