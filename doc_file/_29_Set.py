@@ -63,4 +63,3 @@ s = {i for i in range(10)}
 print(s)
 s = {i for i in range(10) if i % 2}
 print(s)
-

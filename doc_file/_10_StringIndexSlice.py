@@ -18,9 +18,9 @@ print(s[:])
 x = '2022year'
 y = "beijing olympic"
 
-print(x+y)
-print(10*x)
-print(x*10)
+print(x + y)
+print(10 * x)
+print(x * 10)
 
 print("beijing" in y)
 print('shanghai' in y)

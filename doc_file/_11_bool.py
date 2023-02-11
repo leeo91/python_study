@@ -9,7 +9,6 @@ print(type(True))
 print(True + 10)
 print(False + 10)
 
-
 # test the object's bool value
 print(bool(18))
 print(bool(0), bool(0.0))
