@@ -57,3 +57,8 @@ for item in lst:
     match = re.match(pattern3, item)
     if match is not None:
         print(match.group())
+
+print('---------------------------')
+pattern = r'[0-1]{3}\d{2}'
+matcher = re.match(pattern, '111537')
+print(matcher)
