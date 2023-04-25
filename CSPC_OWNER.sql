@@ -57,19 +57,18 @@ CREATE TABLE "CSPC_OWNER"."ACT_GE_PROPERTY" (
 -- ----------------------------
 -- Records of ACT_GE_PROPERTY
 -- ----------------------------
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('common.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('next.dbid', '1', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('identitylink.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('entitylink.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('eventsubscription.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('task.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('variable.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('job.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('batch.schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('schema.version', '6.8.0.0', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('schema.history', 'create(6.8.0.0)', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('cfg.execution-related-entities-count', 'true', '1');
-INSERT INTO "CSPC_OWNER"."ACT_GE_PROPERTY" VALUES ('cfg.task-related-entities-count', 'true', '1');
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('cfg.execution-related-entities-count', 'true', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('cfg.task-related-entities-count', 'true', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('common.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('entitylink.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('eventsubscription.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('identitylink.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('job.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('next.dbid', '7501', 4);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('schema.history', 'create(6.7.2.0)', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('task.schema.version', '6.7.2.0', 1);
+INSERT INTO CSPC_OWNER.ACT_GE_PROPERTY (NAME_, VALUE_, REV_) VALUES ('variable.schema.version', '6.7.2.0', 1);
 
 -- ----------------------------
 -- Table structure for ACT_HI_ACTINST
@@ -360,7 +359,7 @@ CREATE TABLE "CSPC_OWNER"."ACT_ID_PROPERTY" (
 -- ----------------------------
 -- Records of ACT_ID_PROPERTY
 -- ----------------------------
-INSERT INTO "CSPC_OWNER"."ACT_ID_PROPERTY" VALUES ('schema.version', '6.8.0.0', '1');
+INSERT INTO "CSPC_OWNER"."ACT_ID_PROPERTY" VALUES ('schema.version', '6.7.2.0', '1');
 
 -- ----------------------------
 -- Table structure for ACT_ID_TOKEN
